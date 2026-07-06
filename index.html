@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="robots" content="noindex, nofollow">
+  <script>
+    if (window.self !== window.top) {
+      document.documentElement.setAttribute('data-theme', 'dark');
+      window.addEventListener('message', function(e) {
+        if (e.data && e.data.type === 'poli-theme') {
+          document.documentElement.setAttribute('data-theme', e.data.light ? 'light' : 'dark');
+        }
+      });
+    }
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Track sharps container fill and disposal events for your tattoo or piercing studio. Log pickup dates, costs, and forecast your next collection. LocalStorage — no account required.">
+  <title>Sharps Disposal Tracker | Poli International</title>
+  <link rel="stylesheet" href="/tools/sharps-disposal-tracker/css/style.css">
+</head>
+<body>
+<div class="tool-wrapper">
+
+  <header class="tool-header">
+    <div class="tool-header__badge">🗑️ Sharps Compliance</div>
+    <h1>Sharps Disposal Tracker</h1>
+    <p>Log sharps container pickups, track disposal costs, and forecast your next collection date. All data stays in your browser.</p>
+  </header>
+
+  <!-- Cost summary -->
+  <div id="summary-row" class="summary-row" style="display:none">
+    <div class="summary-card">
+      <div class="summary-label">Total Disposals</div>
+      <div id="total-disposals" class="summary-value">0</div>
+    </div>
+    <div class="summary-card">
+      <div class="summary-label">Total Cost</div>
+      <div id="total-cost" class="summary-value">£0.00</div>
+    </div>
+    <div class="summary-card">
+      <div class="summary-label">Avg. Cost / Pickup</div>
+      <div id="avg-cost" class="summary-value">—</div>
+    </div>
+    <div class="summary-card">
+      <div class="summary-label">Next Forecast</div>
+      <div id="next-forecast" class="summary-value">—</div>
+    </div>
+  </div>
+
+  <div class="add-card">
+    <h2 class="add-title">Log Disposal Event</h2>
+    <div class="form-grid">
+      <div class="form-field">
+        <label for="disposal-date">Pickup / Disposal Date</label>
+        <input type="date" id="disposal-date" class="input-field">
+      </div>
+      <div class="form-field">
+        <label for="container-size">Container Size</label>
+        <select id="container-size" class="input-field">
+          <option value="">Select…</option>
+          <option value="0.7 L">0.7 L (small / chairside)</option>
+          <option value="1 L">1 L</option>
+          <option value="2 L">2 L</option>
+          <option value="5 L">5 L</option>
+          <option value="8 L">8 L</option>
+          <option value="Multiple containers">Multiple containers</option>
+        </select>
+      </div>
+      <div class="form-field">
+        <label for="disposal-cost">Cost <span class="opt-label">optional</span></label>
+        <input type="number" id="disposal-cost" class="input-field" placeholder="e.g. 12.50" min="0" step="0.01">
+      </div>
+      <div class="form-field">
+        <label for="provider">Provider <span class="opt-label">optional</span></label>
+        <input type="text" id="provider" class="input-field" placeholder="e.g. Daniels Health, NHS DOOP">
+      </div>
+      <div class="form-field form-field--wide">
+        <label for="disposal-notes">Notes <span class="opt-label">optional</span></label>
+        <input type="text" id="disposal-notes" class="input-field" placeholder="e.g. collection ref, site name">
+      </div>
+    </div>
+    <button id="add-btn" class="add-btn">Log Disposal</button>
+  </div>
+
+  <div class="log-controls">
+    <div id="log-count" class="log-count"></div>
+    <div class="log-actions">
+      <button id="export-btn" class="ctrl-btn">Export CSV</button>
+      <button id="clear-btn" class="ctrl-btn ctrl-btn--danger">Clear All</button>
+    </div>
+  </div>
+
+  <div id="records-wrap">
+    <div id="empty-state" class="empty-state">No disposal events yet. Log your first container pickup above.</div>
+    <table id="records-table" class="log-table" style="display:none">
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Container</th>
+          <th>Cost</th>
+          <th>Provider</th>
+          <th>Notes</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody id="records-body"></tbody>
+    </table>
+  </div>
+
+</div>
+<script src="/tools/sharps-disposal-tracker/js/app.js"></script>
+</body>
+</html>
