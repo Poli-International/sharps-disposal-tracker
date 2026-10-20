@@ -1,5 +1,5 @@
 /**
- * Internationalization Dictionaries (English, French, Italian, German, Spanish, Dutch, Portuguese)
+ * Internationalization Dictionaries (English, French, Italian, German, Spanish, Dutch, Portuguese, Thai)
  * Loaded synchronously in <head> so strings are available before any render.
  */
 window.I18N_STRINGS = {
@@ -19,7 +19,7 @@ window.I18N_STRINGS = {
       "modal_add_studio_placeholder": "e.g. Piercing Room B, Mobile Studio",
       "studio_limit_label": "Studio Open-Too-Long Limit",
       "studio_limit_placeholder": "Days (e.g. 30)",
-      "studio_limit_days": "{days} days",
+      "studio_limit_days": "days",
       "studio_limit_help": "Studio's own policy or carrier limit (not a regulation)."
     },
     "nav": {
@@ -251,7 +251,7 @@ window.I18N_STRINGS = {
       "modal_add_studio_placeholder": "ex. Salle Piercing B, Unité Mobile",
       "studio_limit_label": "Limite d'Ouverture Maximale du Studio",
       "studio_limit_placeholder": "Jours (ex. 30)",
-      "studio_limit_days": "{days} jours",
+      "studio_limit_days": "jours",
       "studio_limit_help": "Politique interne du studio ou consigne du transporteur (aucune norme imposée)."
     },
     "nav": {
@@ -483,7 +483,7 @@ window.I18N_STRINGS = {
       "modal_add_studio_placeholder": "es. Stanza Piercing 2, Unità Mobile",
       "studio_limit_label": "Limite Apertura Massimo dello Studio",
       "studio_limit_placeholder": "Giorni (es. 30)",
-      "studio_limit_days": "{days} giorni",
+      "studio_limit_days": "giorni",
       "studio_limit_help": "Regola interna o indicazione dello smaltitore (nessun obbligo inventato)."
     },
     "nav": {
@@ -715,7 +715,7 @@ window.I18N_STRINGS = {
       "modal_add_studio_placeholder": "z. B. Piercingraum 2, Mobiles Studio",
       "studio_limit_label": "Maximale Aufstelldauer des Studios",
       "studio_limit_placeholder": "Tage (z. B. 30)",
-      "studio_limit_days": "{days} Tage",
+      "studio_limit_days": "Tage",
       "studio_limit_help": "Eigene Studiopolicy oder Vorgabe des Entsorgers (keine fingierte Vorschrift)."
     },
     "nav": {
@@ -947,7 +947,7 @@ window.I18N_STRINGS = {
       "modal_add_studio_placeholder": "ej. Cabina Piercing 2, Unidad Móvil",
       "studio_limit_label": "Límite Máximo de Apertura del Estudio",
       "studio_limit_placeholder": "Días (ej. 30)",
-      "studio_limit_days": "{days} días",
+      "studio_limit_days": "días",
       "studio_limit_help": "Criterio propio del estudio o del transportista (sin normativas inventadas)."
     },
     "nav": {
@@ -1179,7 +1179,7 @@ window.I18N_STRINGS = {
       "modal_add_studio_placeholder": "bijv. Piercingruimte 2, Mobiele Studio",
       "studio_limit_label": "Maximale Gebruiksduur van de Studio",
       "studio_limit_placeholder": "Dagen (bijv. 30)",
-      "studio_limit_days": "{days} dagen",
+      "studio_limit_days": "dagen",
       "studio_limit_help": "Eigen studiobeleid of termijn van de inzamelaar (geen verzonnen wet)."
     },
     "nav": {
@@ -1411,7 +1411,7 @@ window.I18N_STRINGS = {
       "modal_add_studio_placeholder": "ex. Gabinete Piercing 2, Unidade Móvel",
       "studio_limit_label": "Tempo Máximo de Abertura do Estúdio",
       "studio_limit_placeholder": "Dias (ex. 30)",
-      "studio_limit_days": "{days} dias",
+      "studio_limit_days": "dias",
       "studio_limit_help": "Norma interna do estúdio ou orientação da operadora (sem exigências inventadas)."
     },
     "nav": {
@@ -1625,6 +1625,238 @@ window.I18N_STRINGS = {
     "actions": {
       "cancel": "Desistir",
       "confirm": "Prosseguir"
+    }
+  },
+  "th": {
+    "app": {
+      "title": "Sharps Disposal Tracker",
+      "subtitle": "ติดตามวงจรของภาชนะตั้งแต่เปิดใช้จนถึงการทิ้ง จัดการขีดจำกัดของสตูดิโอ และจัดทำทะเบียนการรับที่ตรงไปตรงมา",
+      "badge": "วงจรและบันทึกของมีคม",
+      "theme_light": "โหมดสว่าง",
+      "theme_dark": "โหมดมืด",
+      "title_theme_toggle": "สลับธีม",
+      "lang_selector_label": "ภาษา",
+      "studio_label": "สถานที่ของสตูดิโอ",
+      "add_studio_btn": "+ สถานที่",
+      "modal_add_studio_title": "เพิ่มสถานที่ของสตูดิโอ",
+      "modal_add_studio_label": "สถานที่ / ชื่อสตูดิโอ",
+      "modal_add_studio_placeholder": "เช่น ห้องเจาะ B, สตูดิโอเคลื่อนที่",
+      "studio_limit_label": "ขีดจำกัดการเปิดใช้นานเกินไป",
+      "studio_limit_placeholder": "จำนวนวัน (เช่น 30)",
+      "studio_limit_days": "วัน",
+      "studio_limit_help": "นโยบายของสตูดิโอหรือขีดจำกัดของผู้ขนส่ง (ไม่ใช่ข้อบังคับ)"
+    },
+    "nav": {
+      "open_containers": "เปิดใช้อยู่ตอนนี้",
+      "all_records": "ภาชนะที่ใช้งานอยู่",
+      "collection_register": "ทะเบียนการรับและเอกสารพิมพ์",
+      "archive": "คลังภาชนะที่ปิดแล้ว"
+    },
+    "common": {
+      "station": "จุดวาง / สถานที่",
+      "container_ref": "รหัสภาชนะ",
+      "container_n": "ภาชนะ {n}",
+      "unspecified": "ไม่ระบุ",
+      "other": "อื่น ๆ",
+      "save": "บันทึก",
+      "cancel": "ยกเลิก",
+      "confirm": "ยืนยัน",
+      "edit": "แก้ไข",
+      "delete": "ลบ",
+      "days": "{days} วัน"
+    },
+    "open_now": {
+      "title": "ภาชนะที่เปิดใช้อยู่ตอนนี้",
+      "subtitle": "ภาชนะของมีคมที่กำลังใช้งานอยู่ตามจุดต่าง ๆ ในสตูดิโอของคุณ",
+      "empty": "ยังไม่มีภาชนะที่กำลังใช้งาน เปิดภาชนะใหม่ด้านล่าง",
+      "opened_label": "เปิดใช้เมื่อ",
+      "days_in_use": "ใช้งานแล้ว {days} วัน",
+      "past_limit_badge": "เกินขีดจำกัดของสตูดิโอ ({days} / {limit} วัน)",
+      "seal_button": "ปิดผนึกภาชนะ",
+      "location_stands": "ตั้งอยู่ที่: {location}",
+      "ref_label": "รหัสภาชนะ: {ref}"
+    },
+    "form": {
+      "add_title": "นำภาชนะเข้าใช้งาน",
+      "assign_desc": "กำหนดภาชนะใหม่ให้จุดหรือห้องทำหัตถการ และบันทึกวันที่เปิดใช้",
+      "container_ref_label": "รหัสภาชนะ (พิมพ์อยู่บนภาชนะ)",
+      "placeholder_container_ref": "เช่น SH-2026-01, ชุด 4A",
+      "station_label": "ตั้งอยู่ที่ไหน (ห้อง จุดวาง ข้างเก้าอี้)",
+      "placeholder_station": "เช่น ห้องเจาะ 1, จุดข้างเก้าอี้ B",
+      "container_size": "ขนาดภาชนะ",
+      "select_placeholder": "เลือกขนาด…",
+      "size_0_7": "0.7 ลิตร (ข้างเก้าอี้ / ขนาดเล็ก)",
+      "size_1_0": "1.0 ลิตร",
+      "size_2_0": "2.0 ลิตร",
+      "size_3_0": "3.0 ลิตร",
+      "size_5_0": "5.0 ลิตร",
+      "size_7_0": "7.0 ลิตร",
+      "size_8_0": "8.0 ลิตร",
+      "size_11_0": "11.0 ลิตร",
+      "size_other": "อื่น ๆ / ขนาดกำหนดเอง",
+      "date_opened": "วันที่เปิดใช้",
+      "notes_label": "หมายเหตุ",
+      "optional": "(ไม่บังคับ)",
+      "placeholder_notes": "เช่น ติดบนผนัง, สัปดาห์ที่มีงานมาก",
+      "btn_submit": "นำภาชนะเข้าใช้งาน"
+    },
+    "summary": {
+      "in_use": "กำลังใช้งาน",
+      "active_at_stations": "ใช้งานอยู่ตามจุดต่าง ๆ",
+      "sealed": "ปิดผนึก (รอรับ)",
+      "awaiting_pickup": "รอผู้ขนส่งมารับ",
+      "collected": "จัดเก็บ (รับแล้ว)",
+      "archived_with_notes": "จัดเก็บพร้อมใบนำส่ง",
+      "total_cost": "ค่าใช้จ่ายรวมในการรับ",
+      "across_collections": "ผลรวมของค่าใช้จ่ายขยะที่บันทึกไว้"
+    },
+    "modal": {
+      "seal_title": "ปิดผนึกภาชนะ",
+      "seal_confirm_msg": "กำลังปิดผนึกภาชนะ {ref} ที่ {station} ({size}) เมื่อปิดผนึกแล้ว ภาชนะจะรอการรับจากผู้ขนส่งที่ได้รับอนุญาต",
+      "seal_date_label": "วันที่ปิดผนึก",
+      "seal_reason_label": "เหตุผลที่ปิดผนึก",
+      "seal_reason_select": "เลือกเหตุผล…",
+      "seal_reason_full": "เต็มแล้ว (ถึงเส้นบรรจุ)",
+      "seal_reason_time_limit": "ครบกำหนดเวลา (นโยบายสตูดิโอหรือข้อกำหนดของผู้ขนส่ง)",
+      "seal_reason_moving_premises": "ย้ายสถานที่",
+      "seal_reason_other": "อื่น ๆ",
+      "seal_reason_other_label": "ระบุเหตุผล (ด้วยคำของคุณเอง)",
+      "seal_reason_other_placeholder": "เช่น ปิดชั่วคราวเพราะงานพิเศษ, ที่ยึดชำรุด",
+      "seal_btn": "ยืนยันการปิดผนึก",
+      "collect_title": "บันทึกการรับขยะ",
+      "collect_confirm_msg": "บันทึกการรับสำหรับภาชนะ {ref} ที่ {station}",
+      "collect_date_label": "วันที่รับ",
+      "carrier_label": "ผู้ขนส่งขยะที่ได้รับอนุญาต",
+      "carrier_placeholder": "เช่น Initial Medical, Stericycle",
+      "consignment_ref_label": "รหัสอ้างอิงใบนำส่ง / ใบโอนย้าย",
+      "consignment_ref_placeholder": "เช่น CN-98412-B, WTN-2026-09",
+      "weight_label": "น้ำหนัก (หากมี)",
+      "weight_placeholder": "เช่น 1.85 กก.",
+      "cost_label": "ค่าใช้จ่ายในการกำจัด",
+      "cost_placeholder": "เช่น 24.50",
+      "filing_ref_label": "เอกสารอยู่ที่ไหน (รหัสการจัดเก็บ)",
+      "filing_ref_placeholder": "เช่น แฟ้ม 2, ซอง C, ลิ้นชักตู้สำนักงาน 1",
+      "filing_ref_help": "ตำแหน่งจริงของเอกสารการโอนย้ายหรือใบนำส่ง",
+      "collect_btn": "บันทึกการรับและจัดเก็บ"
+    },
+    "all": {
+      "title": "บันทึกภาชนะที่ใช้งานอยู่",
+      "subtitle": "ดูและจัดการภาชนะที่กำลังใช้งาน หรือปิดผนึกและรอรับ",
+      "search_placeholder": "ค้นหารหัส สถานที่ ผู้ขนส่ง หมายเหตุ…",
+      "status_all": "สถานะที่ใช้งานอยู่ทั้งหมด",
+      "status_in_use": "กำลังใช้งาน",
+      "status_sealed": "ปิดผนึก (รอรับ)",
+      "th_id": "รหัสภาชนะ",
+      "th_station": "ตั้งอยู่ที่",
+      "th_size": "ขนาด",
+      "th_status": "สถานะ",
+      "th_opened": "เปิดใช้",
+      "th_sealed": "ปิดผนึก",
+      "th_days": "จำนวนวันที่ใช้งาน",
+      "th_seal_reason": "เหตุผลที่ปิดผนึก",
+      "th_actions": "การดำเนินการ",
+      "empty_title": "ไม่พบภาชนะที่ใช้งานอยู่",
+      "empty_desc": "ไม่มีภาชนะที่ตรงกับการค้นหาหรือตัวกรอง",
+      "btn_seal": "ปิดผนึก",
+      "btn_collect": "บันทึกการรับ"
+    },
+    "register": {
+      "title": "ทะเบียนการรับและรายงานการตรวจสอบ",
+      "subtitle": "ทะเบียนที่พิมพ์ได้ของภาชนะของมีคมที่รับแล้ว พร้อมใบนำส่งและตำแหน่งที่จัดเก็บเอกสาร",
+      "filter_from": "จากวันที่",
+      "filter_to": "ถึงวันที่",
+      "filter_apply": "กรองช่วงวันที่",
+      "filter_all": "แสดงทุกวันที่",
+      "print_btn": "พิมพ์ทะเบียนการรับ",
+      "print_disclaimer": "เอกสารนี้เป็นบันทึกที่พิมพ์จากรายการที่สตูดิโอบันทึกไว้ในเครื่อง ยังไม่ได้รับการตรวจสอบ รับรอง หรือส่งให้หน่วยงานหรือทะเบียนใด ๆ",
+      "studio_name": "สถานที่ของสตูดิโอ: {name}",
+      "generated_on": "จัดทำรายงานเมื่อ: {date}",
+      "date_range": "ช่วงวันที่: {from} ถึง {to}",
+      "all_dates": "การรับทั้งหมดที่บันทึกไว้",
+      "monthly_totals_title": "สรุปการรับรายเดือน",
+      "yearly_totals_title": "สรุปการรับรายปี",
+      "th_month": "เดือน",
+      "th_year": "ปี",
+      "th_containers": "จำนวนภาชนะ",
+      "th_cost": "ค่าใช้จ่ายรวม",
+      "th_weight": "น้ำหนักรวม",
+      "th_collected_date": "วันที่รับ",
+      "th_consignment": "ใบนำส่ง / ใบโอนย้าย",
+      "th_carrier": "ผู้ขนส่ง",
+      "th_filing_ref": "รหัสการจัดเก็บเอกสาร",
+      "total_containers": "จำนวนภาชนะทั้งหมด: {count}",
+      "total_spend": "ค่าใช้จ่ายรวม: {spend}",
+      "total_weight": "น้ำหนักรวมที่บันทึกไว้: {weight}",
+      "no_collections_range": "ไม่มีการรับที่บันทึกไว้ในช่วงวันที่ที่เลือก"
+    },
+    "calendar": {
+      "title": "การรับครั้งถัดไปที่คาดไว้",
+      "subtitle": "ระบุวันที่รับครั้งถัดไปที่กำหนดไว้ เพื่อส่งออกกิจกรรมปฏิทิน (.ics) ไม่มีเซิร์ฟเวอร์หรือบริการแจ้งเตือน",
+      "next_date_label": "วันที่รับครั้งถัดไปที่คาดไว้",
+      "notes_label": "ผู้ขนส่ง / รายละเอียดที่กำหนดไว้ (ไม่บังคับ)",
+      "notes_placeholder": "เช่น รับตอนเช้า, จองไว้ 2 กล่องกับผู้ขนส่ง X",
+      "export_ics_btn": "ส่งออกกิจกรรมปฏิทิน (.ics)",
+      "ics_created": "ส่งออกกิจกรรมปฏิทินแล้ว (.ics)"
+    },
+    "archive": {
+      "title": "คลังภาชนะที่ปิดแล้ว",
+      "subtitle": "บันทึกย้อนหลังของภาชนะทั้งหมดที่รับและปิดผนึกแล้ว การสำรองและกู้คืนข้อมูลจะเก็บข้อมูลทั้งหมดของสตูดิโอไว้",
+      "export_csv_btn": "ส่งออก CSV",
+      "import_csv_btn": "นำเข้า CSV",
+      "export_json_btn": "สำรองข้อมูลทั้งหมด (JSON)",
+      "import_json_btn": "กู้คืนจาก JSON",
+      "csv_template_btn": "แม่แบบ CSV",
+      "th_id": "รหัสภาชนะ",
+      "th_location": "เคยตั้งอยู่ที่",
+      "th_size": "ขนาด",
+      "th_dates": "วันที่ของวงจร",
+      "th_why_sealed": "เหตุผลที่ปิดผนึก",
+      "th_consignment": "ใบนำส่ง",
+      "th_carrier": "ผู้ขนส่ง",
+      "th_cost": "ค่าใช้จ่าย",
+      "th_filing": "รหัสการจัดเก็บ",
+      "empty_archive": "ยังไม่มีภาชนะที่จัดเก็บ ภาชนะที่รับแล้วจะปรากฏที่นี่"
+    },
+    "validation": {
+      "error_ref_required": "ต้องระบุรหัสภาชนะ (พิมพ์โดยผู้ใช้)",
+      "error_station_required": "ต้องระบุตำแหน่งที่ตั้ง (ห้อง จุดวาง ข้างเก้าอี้)",
+      "error_size_required": "ต้องเลือกขนาดภาชนะ",
+      "error_date_opened_required": "ต้องระบุวันที่เปิดใช้",
+      "error_date_future": "วันที่เปิดใช้ไม่สามารถเป็นวันในอนาคตได้",
+      "error_date_format": "รูปแบบวันที่ไม่ถูกต้อง ใช้รูปแบบ YYYY-MM-DD",
+      "error_seal_date_required": "ต้องระบุวันที่ปิดผนึก",
+      "error_seal_date_before_opened": "วันที่ปิดผนึกไม่สามารถเก่ากว่าวันที่เปิดใช้",
+      "error_seal_reason_required": "กรุณาเลือกเหตุผลที่ปิดผนึกภาชนะ",
+      "error_collect_date_required": "ต้องระบุวันที่รับ",
+      "error_collect_date_before_sealed": "วันที่รับไม่สามารถเก่ากว่าวันที่ปิดผนึก",
+      "error_carrier_required": "ต้องระบุชื่อผู้ขนส่งขยะที่ได้รับอนุญาต",
+      "error_consignment_ref_required": "ต้องระบุรหัสอ้างอิงใบนำส่งหรือใบโอนย้าย",
+      "error_cost_negative": "ค่าใช้จ่ายในการกำจัดไม่สามารถเป็นค่าลบได้",
+      "error_weight_negative": "น้ำหนักไม่สามารถเป็นค่าลบได้",
+      "error_limit_positive_int": "ขีดจำกัดการเปิดใช้นานเกินไปต้องเป็นจำนวนวันเต็มที่มากกว่าศูนย์",
+      "error_date_range_invalid": "วันที่สิ้นสุดไม่สามารถเก่ากว่าวันที่เริ่มต้นได้",
+      "error_ics_date_required": "ต้องระบุวันที่รับครั้งถัดไปที่คาดไว้ เพื่อส่งออกกิจกรรมปฏิทิน",
+      "error_studio_name_required": "ต้องระบุชื่อสถานที่ของสตูดิโอ"
+    },
+    "restore": {
+      "title": "กู้คืนข้อมูลสตูดิโอ",
+      "msg": "กู้คืนข้อมูลสตูดิโอจากไฟล์สำรอง JSON เลือกวิธีนำข้อมูลไปใช้:",
+      "merge_label": "รวม: เพิ่มรายการใหม่โดยไม่ลบรายการเดิม",
+      "replace_label": "แทนที่: เขียนทับข้อมูลปัจจุบันด้วยข้อมูลสำรอง",
+      "invalid_file": "ไฟล์ที่เลือกไม่ใช่ไฟล์สำรอง JSON ที่ถูกต้อง",
+      "success_merge": "รวมข้อมูลสำรองสำเร็จ ({count} ภาชนะ)",
+      "success_replace": "กู้คืนฐานข้อมูลสำเร็จ ({count} ภาชนะ)"
+    },
+    "quick_links": {
+      "title": "แหล่งข้อมูลการปฏิบัติตามข้อกำหนดของสตูดิโอ",
+      "bbp_text": "ตัวติดตามการฝึกอบรม Bloodborne Pathogen",
+      "bbp_desc": "ติดตามการรับรองของพนักงานและบันทึกการอบรมทบทวนประจำปี",
+      "autoclave_text": "เครื่องคำนวณ Autoclave",
+      "autoclave_desc": "ติดตามพารามิเตอร์การฆ่าเชื้อและรอบการทำงาน"
+    },
+    "actions": {
+      "cancel": "ยกเลิก",
+      "confirm": "ยืนยัน"
     }
   }
 };
