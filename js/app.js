@@ -11,7 +11,7 @@
  *  7. Where the paper is filed (Improvement E)
  *  8. Next collection calendar .ics export (Improvement F)
  *  9. JSON backup & restore with merge/replace choices (Improvement H)
- * 10. Multi-language dictionary switching across 7 languages
+ * 10. Multi-language dictionary switching across 8 languages
  */
 
 const STORAGE_KEY = 'poli-sharps-disposal-v2';
