@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sharps Disposal Tracker: documentation | Poli International</title>
+<link rel="stylesheet" href="../shared/docs.css">
+</head>
+<body data-family="sterile">
+<article class="manual">
+  <nav class="langs" aria-label="Documentation language">
+    <span>Language:</span>
+    <a href="./documentation.html" aria-current="page">English</a>
+    <a href="./documentation-fr.html">Français</a>
+    <a href="./documentation-de.html">Deutsch</a>
+    <a href="./documentation-it.html">Italiano</a>
+    <a href="./documentation-es.html">Español</a>
+    <a href="./documentation-nl.html">Nederlands</a>
+    <a href="./documentation-pt.html">Português</a>
+  </nav>
+  <div class="kicker">Poli tools · Sterilisation &amp; compliance · documentation</div>
+  <h1>Sharps Disposal Tracker</h1>
+  <p class="lede">A register of every sharps container in the studio, from the day it is opened at a station to the day the carrier collects it, with the paperwork reference and where that paper is filed.</p>
+
+  <h2><span class="no">01</span>The life of a container</h2>
+  <ol>
+    <li><strong>Currently Open.</strong> Put a container into service: its reference (printed on the container), where it stands (room, station, chairside), its size (0.7 L to 11 L, or a custom size), the date opened and optional notes.</li>
+    <li><strong>Sealed (Awaiting Pickup).</strong> Seal it when it is full or has been open too long, and record why.</li>
+    <li><strong>Archived (Collected).</strong> When the carrier takes it, record the collection date, the consignment note reference, the carrier, the filing location (where the paper is), the weight and the cost.</li>
+  </ol>
+
+  <h2><span class="no">02</span>Open-too-long limit</h2>
+  <p>Each location has its own <strong>Studio Open-Too-Long Limit</strong> in days (30 by default, 1 to 365). A container open longer than the limit is flagged, and the days in use are shown for every open container. Set the limit to what your local rules or your carrier require.</p>
+
+  <h2><span class="no">03</span>Several locations</h2>
+  <p>Use <strong>+ Location</strong> to keep separate registers, each with its own limit and its own next collection date.</p>
+
+  <h2><span class="no">04</span>Collection register and totals</h2>
+  <ul>
+    <li><strong>Print Collection Register</strong>: a printable log of collected containers with consignment note references and filing locations, for a chosen date range.</li>
+    <li><strong>Monthly and yearly totals:</strong> containers collected, total cost and total weight.</li>
+    <li><strong>Next collection in the calendar:</strong> enter the date agreed with your carrier and export it as a calendar appointment (<code>.ics</code>). There are no background alerts.</li>
+  </ul>
+
+  <h2><span class="no">05</span>Backups and moving data</h2>
+  <p><strong>Export CSV</strong> and <strong>Import CSV</strong> (with a <strong>CSV Template</strong>) move the register to a spreadsheet and back. <strong>Backup Everything (JSON)</strong> saves the location that is open, with its settings and all its containers, in one file; <strong>Restore From JSON</strong> brings it back. With several locations, back up each one.</p>
+
+  <div class="note warn">The register reflects only what the studio entered. It is not an inspection, a verification or a submission to any authority. Keep the carrier's consignment notes as your local rules require.</div>
+
+  <h2><span class="no">06</span>Languages and privacy</h2>
+  <p>The tool works in English, French, Italian, German, Spanish, Dutch and Portuguese. The register is saved in this browser on this computer (local storage) and is never sent to a server. Clearing the browser's site data deletes it, so export a backup regularly.</p>
+
+  <div class="foot">Poli International · poliinternational.com · Part of the free Poli tools and the Studio CRM.</div>
+</article>
+</body>
+</html>
