@@ -609,7 +609,7 @@ function renderOpenGrid() {
 
         ${isPastLimit ? `
           <div class="past-limit-badge">
-            ⚠️ ${window.t('open_now.past_limit_badge', { days: String(days), limit: String(maxDays) })}
+            <svg class=ti-i width=1.15em height=1.15em aria-hidden=true style=vertical-align:-.18em;flex:none><use href=../shared/icons.svg#i-warn></use></svg> ${window.t('open_now.past_limit_badge', { days: String(days), limit: String(maxDays) })}
           </div>
         ` : ''}
 
@@ -708,7 +708,7 @@ function renderLifecycleTable() {
         <td>${c.dateSealed ? esc(c.dateSealed) : '—'}</td>
         <td>
           ${daysInUse}
-          ${isPastLimit ? `<br><span class="past-limit-badge">⚠️ ${daysInUse}d > ${maxDays}d</span>` : ''}
+          ${isPastLimit ? `<br><span class="past-limit-badge"><svg class=ti-i width=1.15em height=1.15em aria-hidden=true style=vertical-align:-.18em;flex:none><use href=../shared/icons.svg#i-warn></use></svg> ${daysInUse}d > ${maxDays}d</span>` : ''}
         </td>
         <td>${getSealReasonLabel(c)}</td>
         <td><div class="table-actions-cell">${actionsHtml}</div></td>
@@ -1602,10 +1602,10 @@ function setupThemeToggle() {
     const currentTheme = document.documentElement.getAttribute('data-theme') || 'dark';
     if (themeIcon && themeText) {
       if (currentTheme === 'light') {
-        themeIcon.textContent = '🌙';
+        themeIcon.innerHTML = '<svg class=ti-i width=1.15em height=1.15em aria-hidden=true style=vertical-align:-.18em;flex:none><use href=../shared/icons.svg#i-moon></use></svg>';
         themeText.textContent = window.t('app.theme_dark');
       } else {
-        themeIcon.textContent = '☀️';
+        themeIcon.innerHTML = '<svg class=ti-i width=1.15em height=1.15em aria-hidden=true style=vertical-align:-.18em;flex:none><use href=../shared/icons.svg#i-sun></use></svg>';
         themeText.textContent = window.t('app.theme_light');
       }
     }
