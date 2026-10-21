@@ -172,6 +172,8 @@ window.I18N_STRINGS = {
       "notes_label": "Carrier / Scheduled Details (Optional)",
       "notes_placeholder": "e.g. Morning pickup, 2 boxes booked with Carrier X",
       "export_ics_btn": "Export Calendar Event (.ics)",
+      "ics_summary": "Sharps Waste Collection - {name}",
+      "ics_default_desc": "Scheduled pickup",
       "ics_created": "Calendar event exported (.ics)"
     },
     "archive": {
@@ -404,6 +406,8 @@ window.I18N_STRINGS = {
       "notes_label": "Détails ou Consignes (Facultatif)",
       "notes_placeholder": "ex. passage en matinée, 2 bacs réservés",
       "export_ics_btn": "Télécharger l'Événement (.ics)",
+      "ics_summary": "Collecte des déchets tranchants - {name}",
+      "ics_default_desc": "Collecte programmée",
       "ics_created": "Rendez-vous généré au format .ics"
     },
     "archive": {
@@ -636,6 +640,8 @@ window.I18N_STRINGS = {
       "notes_label": "Dettagli o Avvertenze (Opzionale)",
       "notes_placeholder": "es. passaggio concordato al mattino, 2 scatole",
       "export_ics_btn": "Scarica Promemoria (.ics)",
+      "ics_summary": "Ritiro dei rifiuti taglienti - {name}",
+      "ics_default_desc": "Ritiro programmato",
       "ics_created": "Appuntamento salvato nel file .ics"
     },
     "archive": {
@@ -868,6 +874,8 @@ window.I18N_STRINGS = {
       "notes_label": "Fahreranweisung / Details (Freiwillig)",
       "notes_placeholder": "z. B. Vormittagstour, 2 Boxen angemeldet",
       "export_ics_btn": "Kalenderdatei Exportieren (.ics)",
+      "ics_summary": "Abholung scharfer Abfälle - {name}",
+      "ics_default_desc": "Geplante Abholung",
       "ics_created": "Termindatei erfolgreich erzeugt (.ics)"
     },
     "archive": {
@@ -1100,6 +1108,8 @@ window.I18N_STRINGS = {
       "notes_label": "Anotaciones o Indicaciones (Optativo)",
       "notes_placeholder": "ej. pase por la mañana, 2 cajas preparadas",
       "export_ics_btn": "Descargar Cita (.ics)",
+      "ics_summary": "Recogida de residuos punzantes - {name}",
+      "ics_default_desc": "Recogida programada",
       "ics_created": "Cita guardada en formato .ics"
     },
     "archive": {
@@ -1332,6 +1342,8 @@ window.I18N_STRINGS = {
       "notes_label": "Bijzonderheden of Instructies (Optioneel)",
       "notes_placeholder": "bijv. ochtendronde, 2 dozen klaargezet",
       "export_ics_btn": "Kalenderafspraak Downloaden (.ics)",
+      "ics_summary": "Ophalen van scherp afval - {name}",
+      "ics_default_desc": "Geplande ophaling",
       "ics_created": "Afspraak aangemaakt in .ics-bestand"
     },
     "archive": {
@@ -1564,6 +1576,8 @@ window.I18N_STRINGS = {
       "notes_label": "Observações ou Instruções (Facultativo)",
       "notes_placeholder": "ex. recolha agendada de manhã, 2 embalagens",
       "export_ics_btn": "Exportar Evento (.ics)",
+      "ics_summary": "Recolha de resíduos cortantes - {name}",
+      "ics_default_desc": "Recolha agendada",
       "ics_created": "Compromisso guardado em formato .ics"
     },
     "archive": {
@@ -1796,6 +1810,8 @@ window.I18N_STRINGS = {
       "notes_label": "ผู้ขนส่ง / รายละเอียดที่กำหนดไว้ (ไม่บังคับ)",
       "notes_placeholder": "เช่น รับตอนเช้า, จองไว้ 2 กล่องกับผู้ขนส่ง X",
       "export_ics_btn": "ส่งออกกิจกรรมปฏิทิน (.ics)",
+      "ics_summary": "การเก็บขยะของมีคม - {name}",
+      "ics_default_desc": "นัดรับตามกำหนด",
       "ics_created": "ส่งออกกิจกรรมปฏิทินแล้ว (.ics)"
     },
     "archive": {
