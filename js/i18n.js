@@ -4,6 +4,9 @@
  */
 window.I18N_STRINGS = {
   "en": {
+    "a11y": {
+      "sharps_records": "Sharps records"
+    },
     "app": {
       "title": "Sharps Disposal Tracker",
       "subtitle": "Track container lifecycles from opening to disposal, manage studio limits, and keep an honest collection register.",
@@ -238,6 +241,9 @@ window.I18N_STRINGS = {
     }
   },
   "fr": {
+    "a11y": {
+      "sharps_records": "Registre des objets tranchants"
+    },
     "app": {
       "title": "Suivi d'Élimination des Déchets Piquants",
       "subtitle": "Suivez le cycle de vie des fûts, fixez les limites d'ouverture du studio et tenez un registre de collecte sincère.",
@@ -472,6 +478,9 @@ window.I18N_STRINGS = {
     }
   },
   "it": {
+    "a11y": {
+      "sharps_records": "Registro dei taglienti"
+    },
     "app": {
       "title": "Registro Smaltimento Taglienti",
       "subtitle": "Monitora il ciclo dei contenitori dall'apertura al ritiro, gestisci il limite dello studio e compila il registro sincero.",
@@ -706,6 +715,9 @@ window.I18N_STRINGS = {
     }
   },
   "de": {
+    "a11y": {
+      "sharps_records": "Aufzeichnungen zu scharfen Gegenständen"
+    },
     "app": {
       "title": "Kanülenentsorgungs-Journal",
       "subtitle": "Behälterlebenszyklus lückenlos dokumentieren, Studiofristen wahren und ein ehrliches Entsorgungsregister führen.",
@@ -940,6 +952,9 @@ window.I18N_STRINGS = {
     }
   },
   "es": {
+    "a11y": {
+      "sharps_records": "Registro de objetos punzantes"
+    },
     "app": {
       "title": "Registro de Eliminación de Cortopunzantes",
       "subtitle": "Siga el ciclo del contenedor desde su apertura hasta la recogida, gestione los límites del estudio y mantenga un registro fidedigno.",
@@ -1174,6 +1189,9 @@ window.I18N_STRINGS = {
     }
   },
   "nl": {
+    "a11y": {
+      "sharps_records": "Registratie van scherpe voorwerpen"
+    },
     "app": {
       "title": "Naaldcontainer Registratiesysteem",
       "subtitle": "Volg naaldenbekers van opening tot ophaling, bewaak studiomaxima en houd een eerlijk afvalregister bij.",
@@ -1408,6 +1426,9 @@ window.I18N_STRINGS = {
     }
   },
   "pt": {
+    "a11y": {
+      "sharps_records": "Registro de perfurocortantes"
+    },
     "app": {
       "title": "Registo de Descarte de Perfurocortantes",
       "subtitle": "Controle o ciclo dos recipientes desde a colocação em serviço até à recolha, defina limites do estúdio e mantenha um registo autêntico.",
@@ -1642,6 +1663,9 @@ window.I18N_STRINGS = {
     }
   },
   "th": {
+    "a11y": {
+      "sharps_records": "บันทึกของมีคม"
+    },
     "app": {
       "title": "Sharps Disposal Tracker",
       "subtitle": "ติดตามวงจรของภาชนะตั้งแต่เปิดใช้จนถึงการทิ้ง จัดการขีดจำกัดของสตูดิโอ และจัดทำทะเบียนการรับที่ตรงไปตรงมา",
